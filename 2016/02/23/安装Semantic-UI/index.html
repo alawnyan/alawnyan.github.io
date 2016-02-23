@@ -28,6 +28,8 @@
 
 
 
+  <meta name="keywords" content="安装semantic," />
+
 
 
   <link rel="alternate" href="/atom.xml" title="Lyon's Blog" type="application/atom+xml" />
@@ -37,15 +39,19 @@
   <link rel="shorticon icon" type="image/x-icon" href="/favicon.ico?v=0.4.5.1" />
 
 
-<meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Lyon's Blog">
-<meta property="og:url" content="http://alawnyan.github.io/index.html">
+<meta name="description" content="前言Semantic UI是比较优秀大完全语义化前端界面开发框架。至于有什么优缺点，因为是刚刚接触，在这里也不敢妄言。先来看看怎么安装吧，
+安装nodejswindows用户可以直接在nodejs官网下载可执行文件进行安装。安装有git的 用户可以用git进行安装12345git clone git://github.com/ry/node.gitcd node./configuremakemak">
+<meta property="og:type" content="article">
+<meta property="og:title" content="安装Semantic UI">
+<meta property="og:url" content="http://alawnyan.github.io/2016/02/23/安装Semantic-UI/index.html">
 <meta property="og:site_name" content="Lyon's Blog">
-<meta property="og:description">
+<meta property="og:description" content="前言Semantic UI是比较优秀大完全语义化前端界面开发框架。至于有什么优缺点，因为是刚刚接触，在这里也不敢妄言。先来看看怎么安装吧，
+安装nodejswindows用户可以直接在nodejs官网下载可执行文件进行安装。安装有git的 用户可以用git进行安装12345git clone git://github.com/ry/node.gitcd node./configuremakemak">
+<meta property="og:updated_time" content="2016-02-23T15:57:04.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Lyon's Blog">
-<meta name="twitter:description">
+<meta name="twitter:title" content="安装Semantic UI">
+<meta name="twitter:description" content="前言Semantic UI是比较优秀大完全语义化前端界面开发框架。至于有什么优缺点，因为是刚刚接触，在这里也不敢妄言。先来看看怎么安装吧，
+安装nodejswindows用户可以直接在nodejs官网下载可执行文件进行安装。安装有git的 用户可以用git进行安装12345git clone git://github.com/ry/node.gitcd node./configuremakemak">
 
 
 <script type="text/javascript" id="hexo.configuration">
@@ -55,7 +61,7 @@
   };
 </script>
 
-  <title> Lyon's Blog </title>
+  <title> 安装Semantic UI | Lyon's Blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -83,9 +89,7 @@
 
 
 
-  <div class="container one-column 
-   page-home 
-">
+  <div class="container one-column page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -177,9 +181,9 @@
     <main id="main" class="main">
       <div class="main-inner">
         <div id="content" class="content"> 
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
@@ -190,9 +194,7 @@
           
           
             
-              <a class="post-title-link" href="/2016/02/23/安装Semantic-UI/" itemprop="url">
-                安装Semantic UI
-              </a>
+              安装Semantic UI
             
           
         </h1>
@@ -242,8 +244,7 @@
       
 
       
-        
-          <span itemprop="articleBody"><h2 id="前言">前言</h2><p>Semantic UI是比较优秀大完全语义化前端界面开发框架。至于有什么优缺点，因为是刚刚接触，在这里也不敢妄言。<br>先来看看怎么安装吧，</p>
+        <span itemprop="articleBody"><h2 id="前言">前言</h2><p>Semantic UI是比较优秀大完全语义化前端界面开发框架。至于有什么优缺点，因为是刚刚接触，在这里也不敢妄言。<br>先来看看怎么安装吧，</p>
 <h2 id="安装nodejs">安装nodejs</h2><p>windows用户可以直接在nodejs官网下载可执行文件进行安装。<br>安装有git的 用户可以用git进行安装<br><figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git clone gi<span class="variable">t:</span>//github.<span class="keyword">com</span>/ry/node.git</span><br><span class="line"><span class="keyword">cd</span> node</span><br><span class="line">./configure</span><br><span class="line"><span class="keyword">make</span></span><br><span class="line"><span class="keyword">make</span> install</span><br></pre></td></tr></table></figure></p>
 <p>mac和linux用户可以在官网下载对应系统的包进行编译安装，安装步骤与git方法类似，只是多了一步解压包。</p>
 <h2 id="安装Gulp">安装Gulp</h2><p>gulp是构建自动化的工具。具体操作看<a href="http://www.gulpjs.com.cn/docs/" target="_blank" rel="external">这里</a><br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="operator"><span class="keyword">install</span> -<span class="keyword">g</span> gulp</span></span><br></pre></td></tr></table></figure></p>
@@ -256,115 +257,56 @@
 <p>Automatic:自动配置<br>Express:快速设置<br>Custom:自定义<br>在这里可以根据自己的实际情况或者喜好进行选择。我呢就偷懒选择auto，接下来选择yes回车。其中最后一句‘Where should we put Semantic UI inside your project? (semantic/)’ 在<em>(semantic/)</em>后面输入你要放semantic ui的目录名称，我直接输来semantic，完了回车即可。最后会看到semantic的文件夹生成，进入semantic这个目录下面，然后再执行编译命令。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> memantic</span><br><span class="line">gulp build</span><br></pre></td></tr></table></figure></p>
 <p>最后会在semantic目录生成dist目录，这个里面就是我们所需要的文件：<br>components  semantic.js  semantic.min.js<br>semantic.css  semantic.min.css themes<br>至此我们的semantic ui安装完成。</p>
 </span>
-        
       
     </div>
 
     <footer class="post-footer">
       
-
+        <div class="post-tags">
+          
+            <a href="/tags/安装semantic/" rel="tag">#安装semantic</a>
+          
+        </div>
       
 
       
+        <div class="post-nav">
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2015/12/05/php生成字符画/" rel="next">php生成简单的字符画</a>
+            
+          </div>
+        </div>
       
-        <div class="post-eof"></div>
+
+      
       
     </footer>
   </article>
 
 
-    
-      
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2015/12/05/php生成字符画/" itemprop="url">
-                php生成简单的字符画
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          发表于
-          <time itemprop="dateCreated" datetime="2015-12-05T16:01:53+08:00" content="2015-12-05">
-            2015-12-05
-          </time>
-        </span>
-
-        
-          <span class="post-category" >
-            &nbsp; | &nbsp; 分类于
-            
-              <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                <a href="/categories/php/" itemprop="url" rel="index">
-                  <span itemprop="name">php</span>
-                </a>
-              </span>
-
-              
-              
-
-            
-          </span>
-        
-
-        
-          
-            <span class="post-comments-count">
-              &nbsp; | &nbsp;
-              <a href="/2015/12/05/php生成字符画/#comments" itemprop="discussionUrl">
-                <span class="post-comments-count ds-thread-count" data-thread-key="2015/12/05/php生成字符画/" itemprop="commentsCount"></span>
-              </a>
-            </span>
-          
-        
-      </div>
-    </header>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <span itemprop="articleBody"><h3 id="前言">前言</h3><p>在网上看到用程序生成的字符画，感觉蛮有趣到，自己就找相关的资料也做了个简陋的。其中用到了php的GD库函数以及RGB转换成灰度的计算公式。<br><figure class="highlight xquery"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br></pre></td><td class="code"><pre><span class="line">&lt;?php</span><br><span class="line"></span><br><span class="line">class codeimg &#123;</span><br><span class="line">	</span><br><span class="line">	private function getGray(<span class="variable">$r</span>, <span class="variable">$g</span>, <span class="variable">$b</span>) &#123;  </span><br><span class="line">    	return <span class="number">0</span>.<span class="number">299</span> * <span class="variable">$r</span> + <span class="number">0</span>.<span class="number">578</span> * <span class="variable">$g</span> + <span class="number">0</span>.<span class="number">114</span> * <span class="variable">$b</span>;  </span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">	private function code (<span class="variable">$gray</span>) &#123;</span><br><span class="line">		if (<span class="variable">$gray</span> &lt;= <span class="number">30</span>) &#123;</span><br><span class="line">			return <span class="string">'#'</span>;</span><br><span class="line">		&#125; else if (<span class="variable">$gray</span> &gt; <span class="number">30</span> &amp;&amp; <span class="variable">$gray</span> &lt;= <span class="number">60</span>) &#123;</span><br><span class="line">			return <span class="string">'&amp;'</span>;</span><br><span class="line">		&#125; else if (<span class="variable">$gray</span> &gt; <span class="number">60</span> &amp;&amp; <span class="variable">$gray</span> &lt;= <span class="number">120</span>) &#123;</span><br><span class="line">			return <span class="string">'$'</span>;</span><br><span class="line">		&#125;  else if (<span class="variable">$gray</span> &gt; <span class="number">120</span> &amp;&amp; <span class="variable">$gray</span> &lt;= <span class="number">150</span>) &#123;</span><br><span class="line">			return <span class="string">'*'</span>;</span><br><span class="line">		&#125; else if (<span class="variable">$gray</span> &gt; <span class="number">150</span> &amp;&amp; <span class="variable">$gray</span> &lt;= <span class="number">180</span>) &#123;</span><br><span class="line">			return <span class="string">'o'</span>;</span><br><span class="line">		&#125; else if (<span class="variable">$gray</span> &gt; <span class="number">180</span> &amp;&amp; <span class="variable">$gray</span> &lt;= <span class="number">210</span>) &#123;</span><br><span class="line">			return <span class="string">'!'</span>;</span><br><span class="line">		&#125; else if (<span class="variable">$gray</span> &gt; <span class="number">210</span> &amp;&amp; <span class="variable">$gray</span> &lt;= <span class="number">240</span>) &#123;</span><br><span class="line">			return <span class="string">';'</span>;</span><br><span class="line">		&#125;  else &#123;</span><br><span class="line">			return <span class="string">' '</span>;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">	private function getRgb (<span class="variable">$img</span>,<span class="variable">$x</span>, <span class="variable">$y</span>) &#123;</span><br><span class="line">		<span class="variable">$rgb</span>  = ImageColorAt(<span class="variable">$img</span>, <span class="variable">$x</span> ,<span class="variable">$y</span>);</span><br><span class="line">		<span class="variable">$r</span> = (<span class="variable">$rgb</span> &gt;&gt; <span class="number">16</span>) &amp; <span class="number">0xFF</span>;</span><br><span class="line">		<span class="variable">$g</span> = (<span class="variable">$rgb</span> &gt;&gt; <span class="number">8</span>) &amp; <span class="number">0xFF</span>;</span><br><span class="line">		<span class="variable">$b</span> = <span class="variable">$rgb</span> &amp; <span class="number">0xFF</span>;</span><br><span class="line">		return  <span class="variable">$this-</span>&gt;getGray(<span class="variable">$r</span>, <span class="variable">$g</span>, <span class="variable">$b</span>);</span><br><span class="line">	&#125;</span><br><span class="line">	 </span><br><span class="line">	private function file (<span class="variable">$filetxt</span>,<span class="variable">$str</span>) &#123;	</span><br><span class="line">		<span class="variable">$txt</span> = fopen(<span class="variable">$filetxt</span>, <span class="string">'w+'</span>);</span><br><span class="line">		fwrite(<span class="variable">$txt</span>, <span class="variable">$str</span>);</span><br><span class="line">		fclose(<span class="variable">$txt</span>);		</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">	public function getImg(<span class="variable">$file</span>,<span class="variable">$filetxt</span>) &#123;</span><br><span class="line">	    <span class="variable">$img</span> = imagecreatefromjpeg(<span class="variable">$file</span>);</span><br><span class="line">	    <span class="variable">$w</span> = imagesx(<span class="variable">$img</span>);</span><br><span class="line">	    <span class="variable">$h</span> = imagesy(<span class="variable">$img</span>);</span><br><span class="line">	    <span class="variable">$newimg</span> = imagecreatetruecolor(<span class="variable">$w</span>, <span class="variable">$h</span>);</span><br><span class="line">	    imagecopymergegray(<span class="variable">$newimg</span>,<span class="variable">$img</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="variable">$w</span>,<span class="variable">$h</span>,<span class="number">90</span>);</span><br><span class="line">	    <span class="variable">$str</span> = <span class="string">''</span>;</span><br><span class="line">	    </span><br><span class="line">	    for (<span class="variable">$y</span> = <span class="number">0</span>; <span class="variable">$y</span> &lt; <span class="variable">$h</span>; <span class="variable">$y</span> += <span class="number">6</span>) &#123;</span><br><span class="line">	    	for (<span class="variable">$x</span> = <span class="number">0</span>; <span class="variable">$x</span> &lt; <span class="variable">$w</span>; <span class="variable">$x</span> += <span class="number">4</span>) &#123;</span><br><span class="line">	    		<span class="variable">$str</span> .= <span class="variable">$this-</span>&gt;code(<span class="variable">$this-</span>&gt;getRgb(<span class="variable">$newimg</span> , <span class="variable">$x</span> , <span class="variable">$y</span>));</span><br><span class="line">	    	&#125;</span><br><span class="line">	    	<span class="variable">$str</span> .= PHP_EOL;</span><br><span class="line">	    &#125;</span><br><span class="line">	    </span><br><span class="line">	    <span class="variable">$this-</span>&gt;file(<span class="variable">$filetxt</span>, <span class="variable">$str</span>);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="variable">$file</span> = new codeimg();</span><br><span class="line"><span class="variable">$file-</span>&gt;getImg(<span class="string">'1.jpg'</span>, <span class="string">'code.txt'</span>);</span><br></pre></td></tr></table></figure></p>
-</span>
-        
+    <div class="post-spread">
       
     </div>
+  </div>
 
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-  </section>
-
-  
  </div>
 
         
 
+        
+          <div class="comments" id="comments">
+            
+              <div class="ds-thread" data-thread-key="2016/02/23/安装Semantic-UI/"
+                   data-title="安装Semantic UI" data-url="http://alawnyan.github.io/2016/02/23/安装Semantic-UI/">
+              </div>
+            
+          </div>
         
       </div>
 
@@ -381,6 +323,15 @@
   <aside id="sidebar" class="sidebar">
     <div class="sidebar-inner">
 
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
       
 
       <section class="site-overview">
@@ -435,6 +386,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap sidebar-panel-active">
+          <div class="post-toc-indicator-top post-toc-indicator"></div>
+          <div class="post-toc">
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装nodejs"><span class="nav-number">2.</span> <span class="nav-text">安装nodejs</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装Gulp"><span class="nav-number">3.</span> <span class="nav-text">安装Gulp</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装semantic_ui"><span class="nav-number">4.</span> <span class="nav-text">安装semantic ui</span></a></li></ol></div>
+            
+          </div>
+          <div class="post-toc-indicator-bottom post-toc-indicator"></div>
+        </section>
       
 
     </div>
@@ -519,6 +481,165 @@
   <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
 
   
+  
+<script type="text/javascript" src="/js/bootstrap.scrollspy.js?v=0.4.5.1" id="bootstrap.scrollspy.custom"></script>
+
+
+<script type="text/javascript" id="sidebar.toc.highlight">
+  $(document).ready(function () {
+    var tocSelector = '.post-toc';
+    var $tocSelector = $(tocSelector);
+    var activeCurrentSelector = '.active-current';
+
+    $tocSelector
+      .on('activate.bs.scrollspy', function () {
+        var $currentActiveElement = $(tocSelector + ' .active').last();
+
+        removeCurrentActiveClass();
+        $currentActiveElement.addClass('active-current');
+
+        $tocSelector[0].scrollTop = $currentActiveElement.position().top;
+      })
+      .on('clear.bs.scrollspy', function () {
+        removeCurrentActiveClass();
+      });
+
+    function removeCurrentActiveClass () {
+      $(tocSelector + ' ' + activeCurrentSelector)
+        .removeClass(activeCurrentSelector.substring(1));
+    }
+
+    function processTOC () {
+      getTOCMaxHeight();
+      toggleTOCOverflowIndicators();
+    }
+
+    function getTOCMaxHeight () {
+      var height = $('.sidebar').height() -
+                   $tocSelector.position().top -
+                   $('.post-toc-indicator-bottom').height();
+
+      $tocSelector.css('height', height);
+
+      return height;
+    }
+
+    function toggleTOCOverflowIndicators () {
+      tocOverflowIndicator(
+        '.post-toc-indicator-top',
+        $tocSelector.scrollTop() > 0 ? 'show' : 'hide'
+      );
+
+      tocOverflowIndicator(
+        '.post-toc-indicator-bottom',
+        $tocSelector.scrollTop() >= $tocSelector.find('ol').height() - $tocSelector.height() ? 'hide' : 'show'
+      )
+    }
+
+    $(document).on('sidebar.motion.complete', function () {
+      processTOC();
+    });
+
+    $('body').scrollspy({ target: tocSelector });
+    $(window).on('resize', function () {
+      if ( $('.sidebar').hasClass('sidebar-active') ) {
+        processTOC();
+      }
+    });
+
+    onScroll($tocSelector);
+
+    function onScroll (element) {
+      element.on('mousewheel DOMMouseScroll', function (event) {
+          var oe = event.originalEvent;
+          var delta = oe.wheelDelta || -oe.detail;
+
+          this.scrollTop += ( delta < 0 ? 1 : -1 ) * 30;
+          event.preventDefault();
+
+          toggleTOCOverflowIndicators();
+      });
+    }
+
+    function tocOverflowIndicator (indicator, action) {
+      var $indicator = $(indicator);
+      var opacity = action === 'show' ? 0.4 : 0;
+      $indicator.velocity ?
+        $indicator.velocity('stop').velocity({
+          opacity: opacity
+        }, { duration: 100 }) :
+        $indicator.stop().animate({
+          opacity: opacity
+        }, 100);
+    }
+
+  });
+</script>
+
+<script type="text/javascript" id="sidebar.nav">
+  $(document).ready(function () {
+    var html = $('html');
+    var TAB_ANIMATE_DURATION = 200;
+    var hasVelocity = $.isFunction(html.velocity);
+
+    $('.sidebar-nav li').on('click', function () {
+      var item = $(this);
+      var activeTabClassName = 'sidebar-nav-active';
+      var activePanelClassName = 'sidebar-panel-active';
+      if (item.hasClass(activeTabClassName)) {
+        return;
+      }
+
+      var currentTarget = $('.' + activePanelClassName);
+      var target = $('.' + item.data('target'));
+
+      hasVelocity ?
+        currentTarget.velocity('transition.slideUpOut', TAB_ANIMATE_DURATION, function () {
+          target
+            .velocity('stop')
+            .velocity('transition.slideDownIn', TAB_ANIMATE_DURATION)
+            .addClass(activePanelClassName);
+        }) :
+        currentTarget.animate({ opacity: 0 }, TAB_ANIMATE_DURATION, function () {
+          currentTarget.hide();
+          target
+            .stop()
+            .css({'opacity': 0, 'display': 'block'})
+            .animate({ opacity: 1 }, TAB_ANIMATE_DURATION, function () {
+              currentTarget.removeClass(activePanelClassName);
+              target.addClass(activePanelClassName);
+            });
+        });
+
+      item.siblings().removeClass(activeTabClassName);
+      item.addClass(activeTabClassName);
+    });
+
+    $('.post-toc a').on('click', function (e) {
+      e.preventDefault();
+      var targetSelector = escapeSelector(this.getAttribute('href'));
+      var offset = $(targetSelector).offset().top;
+      hasVelocity ?
+        html.velocity('stop').velocity('scroll', {
+          offset: offset  + 'px',
+          mobileHA: false
+        }) :
+        $('html, body').stop().animate({
+          scrollTop: offset
+        }, 500);
+    });
+
+    // Expand sidebar on post detail page by default, when post has a toc.
+    var $tocContent = $('.post-toc-content');
+    if (isDesktop() && CONFIG.sidebar === 'post') {
+      if ($tocContent.length > 0 && $tocContent.html().trim().length > 0) {
+        displaySidebar();
+      }
+    }
+  });
+</script>
+
+
 
   <script type="text/javascript">
     $(document).ready(function () {
